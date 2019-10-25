@@ -25,7 +25,6 @@ if (fxl*fxr <  0)
     end
 tamanio = size(e);
 ite= 1:1:tamanio(2);
-
 figure ('DefaultAxesFontsize', 14)
 set (gcf, 'color', 'white');
 plot(ite,e,'color',[1 0 0],'LineWidth',2);

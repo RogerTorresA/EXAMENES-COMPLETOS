@@ -1,4 +1,4 @@
-%Anexo del programa 1 del examen b con valores del examen 
+%El examen no da valores que de los cuales no se pueden sacar una solucionpor lo tanto el programa no funciona
 i=1
 xl=0
 xu=2

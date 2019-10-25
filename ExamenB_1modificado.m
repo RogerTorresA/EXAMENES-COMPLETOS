@@ -1,7 +1,7 @@
-% Para que el programa corriera de manera correcta no se podian realizar
-% con los intervalos marcados en el examen ya que al graficar la funcion de
-% [0,2] no hay raiz por lo que cambie a [-2,0] ya que alli si se localizab
-% una raiz dentro de la grafica 
+
+% El examen no da valores que de los cuales no se pueden sacar una solucionpor lo tanto el programa no funciona para programar y darle solucion 
+%cambiamos los parametros y asi la grafica de la funcion se define correctamente
+ 
 i=1
 xl=-2
 xu=0

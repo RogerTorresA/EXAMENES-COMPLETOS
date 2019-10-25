@@ -6,7 +6,6 @@ while(e(i) > 0.001)
     if (i == 1)
         x(i) = ini_valor
     end
-    
     g(i) = 5/((x(i)^2)-10);
     i= i+1;
     x(i) = g(i-1)
@@ -15,11 +14,9 @@ while(e(i) > 0.001)
     if (e(i) > 50);
         break;
     end
-end
-
+    end
 tamanio = size(e);
 ite= 1:1:tamanio(2);
-
 figure ('DefaultAxesFontsize', 14)
 set (gcf, 'color', 'white');
 plot(ite,e,'color',[1 0 0],'LineWidth',2);

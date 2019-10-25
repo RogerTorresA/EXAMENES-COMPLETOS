@@ -5,22 +5,17 @@ e(i)=10
 while(e(i)>0.001)
         if(i ==1)
         x(i)=ini_val;
-    end
- 
-     
+    end 
     fx= 3/(x(i)+1)
     fpx= -3/((x(i)+1)^2)
     
-     x(i+1)= (x(i))-(fx / fpx)
+ x(i+1)= (x(i))-(fx / fpx)
     i= i+1;
-   
-    
-    e(i)=abs(x(i-1)-x(i));
-    
+  e(i)=abs(x(i-1)-x(i));
     if(e(i) > 50);
-        break;
+    break;
+    end 
     end
-end
 tamanio = size(e);
 ite = 1:1:tamanio(2);
 figure('DefaultAxesFontsize', 14)
